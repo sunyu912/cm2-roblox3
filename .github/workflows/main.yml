@@ -1,0 +1,25 @@
+on: [push]
+
+jobs:
+  post_lessons_job:
+    runs-on: ubuntu-latest
+    name: A job to post current lessons to hosts
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v1.2.0
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          pip install PyJWT==v1.7.1
+          pip install gitpython
+      - name: Clone poster repo
+        run: |
+          python ./clone_poster.py
+      - name: Post lessons to hosts
+        run: |
+          python ./.poster/course_poster.py ./config.json
