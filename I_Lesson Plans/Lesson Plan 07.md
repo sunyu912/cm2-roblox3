@@ -27,23 +27,23 @@ How do we want the companion to heal?
     
     - One BoolValue named `Heal`. We will be using this to toggle healer mode.
     
-      ![image](https://drive.google.com/uc?id=1v3MuxNawBprwUkyh3TZOo34E7Cn4qt6b)
+      ![image](https://user-images.githubusercontent.com/28936305/230853400-57907804-c57b-473c-8168-d6e3bbec46c8.png)
     
     - Two IntValues called `healPower` and `healDelay`, respectively. These will allow for easy configuration. For now, set `healPower` to 10 and `healDelay` to 2.
     
-      ![image](https://drive.google.com/uc?id=1SXSrTYwftPoDJKSJ5FgLCsPp7vYWp4Ej)
+      ![image](https://user-images.githubusercontent.com/28936305/230853417-9ca52d36-d9b4-4e19-95dd-e25e87eff758.png)
     
     - One ObjectValue called `PlayerCharacterObject`. This will store Player.Character after getPlayerFromName( ) in CompanionMoveScript returns the object. It will save us scripting time and space since we can call the function once.
     
-      ![image](https://drive.google.com/uc?id=1WkAu47GoYxZq0BAVHDOqx8SRfEmcr5iB)
+      ![image](https://user-images.githubusercontent.com/28936305/230853443-16217727-cbef-463f-b3dc-ea93520117d6.png)
     
     - Make sure you see this under Config:
     
-      ![image](https://drive.google.com/uc?id=1LgYr3ZznAFd2agknyi_DQabk7mOROobK)
+      ![image](https://user-images.githubusercontent.com/28936305/230853470-d142741b-d24b-4ad6-8af1-b647818328e1.png)
 
 2. To save us from cluttering the CompanionMoveScript with more lines, let's create a new script just for healing. Click the + button next to Companion, add a script (red in image), and rename it to `HealScript`.
 
-   ![image](https://drive.google.com/uc?id=1_AUySdZYrOJ8M89WTkDbGM3E9wTPUhtN)
+   ![image](https://user-images.githubusercontent.com/28936305/230853500-4e47e28b-6bd6-468f-b241-4c6858cd3f1e.png)
 
 3. Open up `HealScript`, and add this code: 
    ```lua
