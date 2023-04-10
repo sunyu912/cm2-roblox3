@@ -1,78 +1,136 @@
 
-# Lesson 7: Protective AI Companion (Part 2)
+# Lesson 7: Protective A.I. Companion (Part 2)
+
+Let's learn how to improve our protective A.I. companion! We will make another mode for healing the player, and if it is with the player, we will allow it to slowly regenerate the player’s health back.
+
+We will be utilizing the following topics:
+
+- Scripts
+
+- Values
 
   
 
+## Letting Companions Regenerate the Player
+
+How do we want the companion to heal?
+
+- It should only regenerate the player's health only when it is following them.
+
+- The regeneration should occur every few seconds.
+
+- If the companion is attacking an enemy, we want it to stop regenerating health until it returns to the player.
+
   
 
-# Summary and Learning Objective(s):
-
--   We will make another mode for healing the player.
+1.  Click the + button next to the companion's Config (red in images), and add the following values:
     
--   If the companion is with the player, it will slowly regenerate the player’s health back.
+    - One BoolValue named `Heal`. We will be using this to toggle healer mode.
     
-
-# Important Notes:
-
--   Link: [https://bit.ly/roblox3_7_2](https://bit.ly/roblox3_7_2)
+      ![image](https://drive.google.com/uc?id=1v3MuxNawBprwUkyh3TZOo34E7Cn4qt6b)
     
-
-# Class Schedule/Tasks:
-
-## How Do We Want the Companion to Heal
-
-1.  Let’s go through what we want:
-     
-    1.  Only when the Companion is following the Player do we want it to regenerate the Player health.
-        
-    2.  We want to have the regeneration happen every few seconds.
-        
-    3.  If the Companion is off to attack an enemy, we want to stop regenerating until they come back to the Player.
+    - Two IntValues called `healPower` and `healDelay`, respectively. These will allow for easy configuration. For now, set `healPower` to 10 and `healDelay` to 2.
     
-
-## Giving Companions the Ability to Regenerate the Player
-
-1.  Inside the companion’s Config folder, add the following Values:
+      ![image](https://drive.google.com/uc?id=1SXSrTYwftPoDJKSJ5FgLCsPp7vYWp4Ej)
     
-    1.  First, let’s add a BoolValue called Heal.![](https://lh4.googleusercontent.com/b2T0bPOrocSx1UiTexVfa3n0AmkJubcrgJI1L9O906gt9za4SVlcKZ1kBOj3lN-Nwmi1zSP-1Hu8mG-7XJbzK86wZjhFwtoQDnl61gtwn-JWQg8ttRGKft5Aqk1tBjtu6W8QJQBQ)
-        
-        1.  We will be using this to toggle healer mode.
-        
-
-3.  Add two IntValue called healPower and healDelay.
+    - One ObjectValue called `PlayerCharacterObject`. This will store Player.Character after getPlayerFromName( ) in CompanionMoveScript returns the object. It will save us scripting time and space since we can call the function once.
     
-    1.  This is for easy configuration. For now set healPower to 10 and healDelay to 2
-        
-
-5.  Next, add an ObjectValue called PlayerCharacterObject.  
+      ![image](https://drive.google.com/uc?id=1WkAu47GoYxZq0BAVHDOqx8SRfEmcr5iB)
     
-    1.  This will store the Player.Character after getPlayerFromName( ) in CompanionMoveScript returns the object.
-        
-    2.  It is used to save us scripting time and space from duplicating the function when we can just write and call it once.
-        
-    3.  To save us from cluttering the CompanionMoveScript with more lines, we will create a new script just for healing.               
-        
-        1.  Place a new script into Companion and name it HealScript.
-            
-        2.  Here is what the entire script looks like:  
-            ![](https://lh3.googleusercontent.com/Tty14Uqylw5RXmIX42YKUoj5eW0kAQyIEfsCtfIosdiA6FU9PCModjIG7Bhlo3oYWwafBbVmthWdFA3LNk6bLS1kTcZQSi1tyIsZwMmn-DMhONpL11qSFEMyH_iXKlUmvI5RCl9J)  
-              
-            
+    - Make sure you see this under Config:
+    
+      ![image](https://drive.google.com/uc?id=1LgYr3ZznAFd2agknyi_DQabk7mOROobK)
 
-5.  All we need to do now is add a few lines in CompanionMoveScript.
+2. To save us from cluttering the CompanionMoveScript with more lines, let's create a new script just for healing. Click the + button next to Companion, add a script (red in image), and rename it to `HealScript`.
 
-    1.  Near the end, just after we assign the leader value with the Player’s Character object, we will also assign it to the PlayerCharacterObject we created.
+   ![image](https://drive.google.com/uc?id=1_AUySdZYrOJ8M89WTkDbGM3E9wTPUhtN)
 
-    ![](https://lh3.googleusercontent.com/nV6rron-4qSZtucMk-Zs6sUCN8RH1n04I0g9nMziAfnIq8-kDCsY_fw82EWA8B77B-wCVf1-zgQ69V16H592vhIeoIjd6nlR-2bnh4hjVz1d1F6-PVhGkvRNilt-jnPfmdQrzODg)  
+3. Open up `HealScript`, and add this code: 
+   ```lua
+   local leader = nil
+   local healPower
+   local healDelay
+   local config = script.Parent.Config
+   
+   -- Wait until the Player's Character is found through the CompanionMoveScript.
+   repeat
+   	wait(0.1)
+   	leader = config.PlayerCharacterObject.Value
+   	healPower = config.healPower.Value
+   	healDelay = config.healDelay.Value
+   until (leader ~= nil) and (healPower ~= nil) and (healDelay ~= nil)
+   
+   -- The wait will prevent the Player from being instantly healed.
+   while wait(healDelay) do
+   	if config.Heal.Value == true then
+   		leader.Humanoid.Health = leader.Humanoid.Health + healPower
+   	end
+   end
+   ```
 
-    2.  Lastly in the onWaypointReached function else statement, we will add an if-else check to flip Heal on or off.
-        
-    3.  If the destination is the leader then Heal will be true, else it will be false.
-        
-    ![](https://lh4.googleusercontent.com/UQFIno3BwkemUpS4yUPLS-L9WNcOI1zPB1vP5roNDuqpGjhdGzQutYG0duFbFTxOXvg1x6Stsf__VQCsyfMZcjLfm_Ejsunf9Nb6cBPb9q6BEeQaa9Bb6IiwkpDlSxWfFh7gvbdL)
+4. All we need to do now is add a few lines in `CompanionMoveScript`. Open it up, and we will assign it to the PlayerCharacterObject we created. Add this code:
+
+   ```lua
+   -- START UP
+   
+   repeat -- Repeat until we find a target
+   	wait(0.1)
+   	leaderName = config.Leader.Value
+   	detectionRange = config.detectionRange.Value
+   	gapRange = config.gapRange.Value
+   until (leaderName ~= nil) and (detectionRange ~= nil) and (gapRange ~= nil)
+   
+   leader = getPlayerFromName(leaderName)
+   config.PlayerCharacterObject.Value = leader
+   destination = leader.HumanoidRootPart
+   
+   followPath(destination) -- Call this function once to start the forever change
+   ```
+
+5. Lastly, in the onWaypointReached function else statement, we will add an if-else statement to flip Heal on or off. If the destination is the leader, then Heal will be true, else it will be false. Replace the function with this new code:
+
+   ```lua
+   local function onWaypointReached(reached)
+   	
+   	if reached and not attack and (currentWaypointIndex < #waypoints) and (maxDist < #waypoints) then -- Calculate a gap when following player and not attacking.
+   		currentWaypointIndex = currentWaypointIndex + 1
+   		maxDist = currentWaypointIndex + gapRange
+   		
+   		if waypoints[currentWaypointIndex].Action.Value == 1 then 	-- We want the humanoid to Jump ahead of time, so after
+   			humanoid.Jump = true									-- the currentWaypointIndex increased by, we check to see if 
+   		end															-- the Action is Jump.
+   		
+   		humanoid:MoveTo(waypoints[currentWaypointIndex].Position)
+   		
+   	elseif reached and attack and (currentWaypointIndex < #waypoints) then -- When attacking. No gap in order to touch zombies.
+   		currentWaypointIndex = currentWaypointIndex + 1
+   		maxDist = currentWaypointIndex + gapRange
+   
+   		if waypoints[currentWaypointIndex].Action.Value == 1 then
+   			humanoid.Jump = true
+   		end
+   		
+   		humanoid:MoveTo(waypoints[currentWaypointIndex].Position)
+   	else
+   		destination = findNearest()
+   		
+   		if destination == leader.HumanoidRootPart then
+   			config.Heal.Value = true
+   		else
+   			config.Heal.Value = false
+   		end
+   		
+   		followPath(destination)
+   	end
+   end
+   ```
+
+Congratulations—your A.I. companion is now improved! Click play to test out its new functions!
 
 ## Post-Class Deliverables
 
 1.  Help students finish up their programs. Ensure students save their product, give it a title, and upload it to ShareMyWorks. Greet parents as they arrive and passout/explain homework to students and ensure their parents know they have homework to bring back.
-    
+
 2.  For this class, remember to always have them publish their script on to Roblox. We will be grabbing them again and again for future lessons.
+
+3.  Solution: https://bit.ly/roblox3_7_2
