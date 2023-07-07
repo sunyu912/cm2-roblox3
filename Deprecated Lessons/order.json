@@ -1,5 +1,5 @@
 {
-    "override": false,
+    "override": true,
     "order": [
         "Syllabus.md",
         "Lesson Plan 01.md",
