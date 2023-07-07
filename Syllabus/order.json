@@ -1,6 +1,7 @@
 {
-  "override": false,
+  "override": true,
   "order": [
-    "Syllabus.md"
+    "Syllabus.md",
+    "Help.md"
   ]
 }
