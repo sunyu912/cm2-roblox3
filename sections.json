@@ -1,16 +1,9 @@
 {
   "sections": [
-    "I_Lesson Plans",
-    "Lesson 01 Getting Started with AI Pathfinding",
-    "Lesson 02 Pathfinding Out A Maze",
-    "Lesson 03 NPC Going from Point to Point",
-    "Lesson 04 Chasing AI Enemy Part 1",
-    "Lesson 05 Chasing AI Enemy Part 2",
-    "Lesson 06 Protective AI Companion Part 1",
-    "Lesson 07 Protective AI Companion Part 2",
-    "Lesson 08 Protective AI Companion Part 3",
-    "Lesson 09 Conga Line Part 1",
-    "Lesson 10 Conga Line Part 2",
-    "Syllabus"
+    "Syllabus",
+    "Module 01 NPCs",
+    "Module 02 Pathfinding",
+    "Module 03 Raycasting",
+    "Deprecated Lessons"
   ]
 }
