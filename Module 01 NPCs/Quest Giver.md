@@ -53,7 +53,7 @@ local dogTool = game.ReplicatedStorage.dog
 local swordTool = game.ReplicatedStorage.CoolSword -- This will be the reward for completing the quest, you can change it to anything you'd like
 
 local Dialog = Instance.new("Dialog") -- Creates a dialog system object which lets use create various dialog prompts and responses with our NPC
-Dialog.Parent = NPC.Head -- Parent it with the NPC's head so that his dialog will appear above him
+Dialog.Parent = NPC:WaitForChild("Head") --Parent it with the NPC's head so that his dialog will appear above him
 Dialog.InitialPrompt = "Hey you! I lost my dog. Can you help me find him?"
 Dialog.GoodbyeChoiceActive = true -- Goodbye choices are responses the player can choose to exit the dialog without a response from the NPC
 Dialog.GoodbyeDialog = "Sorry I can't right now."
