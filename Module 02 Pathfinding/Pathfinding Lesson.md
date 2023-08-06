@@ -53,9 +53,10 @@ Step 1. First we need to create a list variable (also called an array) to hold r
 Step 2. Now we'll need some generic variables. Let's create one called 'NPC' which simply holds a reference to the NPC model that this script is attached to. Then we'll need a reference to the NPC's humanoid.
 
 ```lua
-    -- Variables for the NPC, its humanoid
+    -- Variables for the NPC, its humanoid, and its destination (the current 'goal' part that its moving to)
     local NPC = script.Parent
     local humanoid = NPC.Humanoid
+    local destination = 1
 ```
 
 Step 3. Next, we'll need to create several variables that handle the NPC's movement logic. First make a path variable from Roblox's pathfinding service that will calculate paths for us. Then create a variable called destination, which will be our marker for what patrol point the NPC is currently moving toward. Then create some waypoint variables that will keep track of the waypoints as the NPC traverses through them.
@@ -169,4 +170,3 @@ Step 7. Finally, we create a single call to 'followPath' at the end of our code 
 ### Follow up
 
 For an additional challenge, create code that will program the NPC to check if it detects a player nearby after it has reached a goal part, and to follow that player instead of the next destination. In the next lesson, we will take a look at how to make an NPC chase the player instead, so you could take some inspiration from there.
-
