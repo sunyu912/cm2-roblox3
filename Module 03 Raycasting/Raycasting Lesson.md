@@ -17,17 +17,17 @@ Pew Pew Pew
 
 2. , Add BrickColor, specifically color one green and the other one blue. Any color shade works. 
 
-   ![](https://drive.google.com/uc?export=view&id=12palzytAMdsSVePz5SMklO_FzoCLHrME)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/12dec863-b2b3-4870-bf85-e3a7762b024a.png)
 
 3. Rename the blue sphere to "Shooter" and the Green one to "Target" (case sensitive). Rename the block to "Window".
 
-   ![](https://drive.google.com/uc?export=view&id=1GmXHtubGuCNc9g3NctfljguI9GraJ_Ap)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/3973f83d-55a6-4020-8f1a-935f98ab54e6.png)
 
 4. Make the block longer, anchor it, turn collisions off, set the transparency to 0.5 and place it between both spheres.
 
    
 
-   ![](https://drive.google.com/uc?export=view&id=1HBnCu3dolwI9rTfVc5_iYiOBcrpyTGHX)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/fb91718f-a744-4795-856b-ec5186d6e10f.png)
 
    
 
@@ -90,23 +90,23 @@ Pew Pew Pew
 
    - Select the Target and add a Beam from `Model` => `Effects` => `Beam` (red in image)
 
-     ![](https://drive.google.com/uc?export=view&id=1dIL76Ai5N-7mK10nEu7MakbQyTXlulKQ)
+     ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/f36b7070-8c8a-421c-a0a8-abb146ccdb16.png)
 
    - Add an `attachment` to both the Target and Shooter parts. Rename them to Attachment1 and Attachment2 (red in image). Naming order doesn't matter.
 
-     ![](https://drive.google.com/uc?export=view&id=1WlHgnWRrb-qO9rkcmuZnyTpRiBD06JN1)
+     ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/f6c621a5-2de7-4673-a38d-cd1629636fa8.png)
 
    - In the `Beam` properties, select the Attachments in both slots (red in image). Order does not matter.
 
-     ![](https://drive.google.com/uc?export=view&id=14-f0jpY_A31nvKrQyeWkIHa20rcnmbCk)
+     ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/b25a73b6-5db0-4584-bf7a-fcfdcb224d04.png)
 
    - Congratulations! Now a beam will show you the raycast shot direction!
 
-     ![](https://drive.google.com/uc?export=view&id=1HBnCu3dolwI9rTfVc5_iYiOBcrpyTGHX)
+     ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/fb91718f-a744-4795-856b-ec5186d6e10f.png)
 
 2. Decorate it!
 
-   ![](https://drive.google.com/uc?export=view&id=1fgoxPTywloZ7l43eVR9Z_XioAOGJIrP0)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Raycasting%20Lesson/a2c89ea9-cd75-4a7d-b587-44940c3119a1.png)
 
    
 

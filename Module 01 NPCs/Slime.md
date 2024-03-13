@@ -13,11 +13,11 @@ We will be utilizing the following topics:
 2. Negate the cube in the 'Model' section of Studio.
 3. Select both the sphere and the cube, and union them to create semisphere, the resulting object should look like a semisphere.
 
-![](https://drive.google.com/uc?export=view&id=1vW3Lbg8Ahvi0ow0qOKT_w9YmavaxrVw9)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Slime/ff57479b-e489-488c-8119-00a5ca4e8a0b.png)
 
 4. Name the resulting semisphere "Head" and put it inside a model called (Slime). You can set the Heads material and color to whatever you like.
 
-![](https://drive.google.com/uc?export=view&id=11W7dWkUKsQuzChd3nyZ_s4AsGg4y0mKY)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Slime/9f6ff2aa-91b5-4034-8689-2bcb0f3b9ba0.png)
 
 5. Create an invisible cube of the same size as the Head and name it HumanoidRootPart.
 6. Put the HumanoidRootPart into the Slime Model and set that cubes position the same as the Heads.

@@ -61,7 +61,7 @@ Match the definition to each term above:
 
 ## Challenge
 
-1.  What is the difference between Scale and Offset in a UI object’s property, Position?  
+1.  What is the difference between Scale and Offset in a UI object's property, Position?  
       
     _____________________________________________________________________________  
       

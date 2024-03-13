@@ -10,16 +10,16 @@ In this project, you will create a minigame! In this minigame, an egg got lost, 
 We're going to start by making the egg and the nest (I prefer eggs and bacon though...). 
 1. Get 1 part and 1 sphere (red in image). 
 
-   ![](https://drive.google.com/uc?export=view&id=1lfG3CwfRXk0Y-plEqypSeS4FHT7vTesh)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/5b3705cc-110b-4b16-84ed-fa84d4b32ab6.png)
 
 2. Add a BrickColor and a Material (blue in image).
 
 
-![](https://drive.google.com/uc?export=view&id=1rFePcAxGrIT4nblyblNmZ1DzHzt9njTB)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/326f8bdf-8e38-40ee-b95b-2314d9a498fe.png)
 
 3. Rename the part to "Nest" and the sphere to "Egg."
 
-![](https://drive.google.com/uc?export=view&id=14D6Z11SW5FG4Y-edhTXtc5nxAeUvH1VH)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/ed1116c2-e1e4-4214-89a5-08cec7e7759a.png)
 
 4. Anchor the Nest.
 
@@ -52,7 +52,7 @@ In this script, we have a function to determine what to do when something touche
 
 We will be adding some code to have the Pathfinder indicate where the egg should go to get to the nest. Add a Model on the Workspace and rename it to `Waypoints`.
 
-![](https://drive.google.com/uc?export=view&id=1uOtw3jKETkv8qBAr9VAdzIhJYlJqI3OX)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/1c3dbb59-f9bf-4983-80d2-d9472e1b997b.png)
 
 Add a script on the Workspace, rename it to `Pathfinding Script` and add the following code:
 
@@ -93,12 +93,12 @@ Congratulations! Your Egg and Nest are finished. Push it around and try to score
 ### Follow Up
 1. Add a surrounding pen so the Egg doesn't roll away.
 
-![](https://drive.google.com/uc?export=view&id=1RBBoXCYqZWyH-mr34-Tbfdlk3YXgccVE)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/5b6b6916-6190-4bd7-805c-86274c8b697c.png)
 
 2. You can use Meshes to make the objects look more like an egg and nest respectively. Feel free to use the Toolbox for this.
 
-![image-20230508231831001](https://drive.google.com/uc?export=view&id=1lvHzAqDSRXU3LtVI7M5kYn8gjzVDcN0d)
+![image-20230508231831001](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/9b9fc7f3-06c7-46fc-9101-c612bbba65c3.png)
 
 3. Add decorations!
 
-![image-20230512164927553](https://drive.google.com/uc?export=view&id=153Y9gw8ygtkVqIRd8h2_38yhaXe0KAcg)
+![image-20230512164927553](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Egg%20Saver/f869945e-f076-4e78-abae-3ac3c8315f86.png)

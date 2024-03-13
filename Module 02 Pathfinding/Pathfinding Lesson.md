@@ -10,29 +10,29 @@ In this project you will create a basic NPC that can patrol between a pre-define
 
 1. First let's set up the NPC. 'Navigate to the 'Avatar' tab and press 'Rig Builder'.
 
-![](https://drive.google.com/uc?export=view&id=1F-y7XuTK_NJtcD-27xhSyY6fGc8cFemK)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/2d564087-bf51-4ff3-bddc-bd26a6ccd6bf.png)
 
 2. In the pop-up window, select your desired rig for your NPC from the options.
 
-![](https://drive.google.com/uc?export=view&id=1nPoSTLtFRmAgUY89yMIy4TsPbxVDKOV1)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/c3e94018-c46a-4110-b4cc-17712ec25516.png)
 
 3. Now create several parts around your level to act as the NPC's patrol points. Size and color them however you wish.
 
-![](https://drive.google.com/uc?export=view&id=13Qo7QuLlXpl2eiapxN95ih_n3SotCrPw)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/af0eada6-d05b-4f98-bd88-0e9414a95f6d.png)
 
 4. Now rename the patrol points you just created so that they are ordered, such as goal1, goal2, goal3, etc.
 
-![](https://drive.google.com/uc?export=view&id=16VuciNjtDGQZhETyCPv-pKH4-lOXyqER)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/4b020258-7a1e-4687-b960-5a40ffc8fc0a.png)
 
 5. Lastly, feel free to create some geometry around and between your goal points to make the patrol more interesting and dynamic.
 
-![](https://drive.google.com/uc?export=view&id=1oG95VCThdQuv25P2750rja2A9ljq0663)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/1df0cdaa-d648-4ddc-8789-a11c35fd4d1c.png)
 
 ### The Script
 
 Now we will create a script that programs our NPC to move between the patrol points you defined. Hit the plus sign next to the rig you just made and add a script. Rename it to 'NPCMoveScript'.
 
-![](https://drive.google.com/uc?export=view&id=12p0FiJsrmuhwJ4pUK0KTeKB2PUz6aftG)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Pathfinding%20Lesson/23061872-f9de-4c93-96c4-55dbaded704a.png)
 
 Now open up the script so we can begin coding.
 

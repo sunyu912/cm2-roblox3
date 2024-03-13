@@ -10,39 +10,39 @@ In this project you will create an NPC that gives the player a simple quest to f
 
 1. Navigate to the 'Avatar' tab and press 'Rig Builder'.
 
-![](https://drive.google.com/uc?export=view&id=1F-y7XuTK_NJtcD-27xhSyY6fGc8cFemK)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/0cf88601-644f-42c4-8d3c-e0eb7a034b21.png)
 
 2. In the pop-up window, select your desired rig for your NPC from the options.
 
-![](https://drive.google.com/uc?export=view&id=1nPoSTLtFRmAgUY89yMIy4TsPbxVDKOV1)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/4d175b2f-8fcb-433f-b1b8-bc819cccbaa2.png)
 
 3. Be sure to rename the rig to 'NPC' or whatever name you'd like. We will be using its name to find it later in our code.
 
-![](https://drive.google.com/uc?export=view&id=1MbDcBxF5TgkZUdUGpvY-5xC-71QkU_Fj)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/1bded967-fdc7-412b-a746-b2d29236a629.png)
 
 4. Next, let's import the dog model that will be required for the player to find and turn in to the NPC. You can find a free dog tool at [this link](https://www.roblox.com/library/13913148143/Dog-Tool).
 
-![](https://drive.google.com/uc?export=view&id=1P-dZ9TYsaXdu7p7Z-_Ms8Hs0aXQMqtnc)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/6172d897-0e53-4e8d-8e6b-497319548b23.png)
 
 5. Press the "Get" button to add it to your inventory. Then, in Roblox Studio, click on the Inventory tab in your Toolbox. The Dog Tool should appear there, and you can drag it into your workspace.
 
 6. After importing the model, place it inside replicated storage so that we can store it for later use from our script.
 
-![](https://drive.google.com/uc?export=view&id=1zMsyRMmVHjQu0FwqoEgthi5_OSpcpXnw)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/fe7394b7-ab78-4697-be61-3fdb383a8912.png)
 
 7. Now we must import some kind of reward item for the NPC to give to the player upon quest completion. You can use any tool you'd like from the toolbox. Roblox offers a basic sword tool that you can find [here](https://create.roblox.com/marketplace/asset/47433/Sword), or you can simply search "sword" in the toolbox and select the first option.
 
-![](https://drive.google.com/uc?export=view&id=1JP9qOyD_3HKNLT270FwVOikmjI7n16U4)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/5480d8ab-2423-4d7c-a50b-2ba2af772868.png)
 
 8. Finally, just as we did with the dog model, place the reward item in replicated storage so we can use it later from our script. If it asks you to place it in the StarterPack, select No. Rename it to "CoolSword."
 
-![](https://drive.google.com/uc?export=view&id=1i7xW5RKbzXgdGK-m7-xSEDMO-GYulZ5j)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/82a6cb5d-4b4e-4cf3-bb3b-4cdc17889136.png)
 
 ### The Script
 
 We will create all our quest system code inside a local script, as dialog choice selection events can only be detected locally on the player's machine. Let's first create a local script inside "StarterPlayerScripts" that can be found in the "StarterPlayer" folder. Rename the script to "DialogueScript".
 
-![](https://drive.google.com/uc?export=view&id=1ghmjFUiUH5n_oeIAMBILwXuUBPlcAHcN)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Quest%20Giver/02c95ae6-a68b-49fa-8d9c-c71213b34029.png)
 
 Now place the following code within your newly created local script. Feel free to change the dialog options or even add more to customize your own kind of quest!
 

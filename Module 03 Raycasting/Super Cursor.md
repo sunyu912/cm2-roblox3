@@ -14,7 +14,7 @@ We will be utilizing the following topics:
 2. Name all the parts you created "Interactable".
 3. Inside of ReplicatedStorage, create a new RemoteEvent and name it "SuperClick".
 
-![](https://drive.google.com/uc?export=view&id=1Tz6y6Dv6KwSY4Sx_rwdJ2IFPL5D8Q4yI)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Super%20Cursor/900d66fa-ff61-4b41-8b83-2e309e60439b.png)
 
 ### Making the Local Script
 - In the explorer, create a new local script inside of StarterPlayerScripts which is located inside of StarterPlayer.

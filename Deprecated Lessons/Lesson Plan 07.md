@@ -1,7 +1,7 @@
 
 # Lesson 7: Protective A.I. Companion (Part 2)
 
-Let's learn how to improve our protective A.I. companion! We will make another mode for healing the player, and if it is with the player, we will allow it to slowly regenerate the player’s health back.
+Let's learn how to improve our protective A.I. companion! We will make another mode for healing the player, and if it is with the player, we will allow it to slowly regenerate the player's health back.
 
 We will be utilizing the following topics:
 
@@ -27,23 +27,23 @@ How do we want the companion to heal?
     
     - One BoolValue named `Heal`. We will be using this to toggle healer mode.
     
-      ![image](https://user-images.githubusercontent.com/28936305/230853400-57907804-c57b-473c-8168-d6e3bbec46c8.png)
+      ![image](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2007/36af3320-decf-4bf7-b8dd-ff2cbea69fc0.png)
     
     - Two IntValues called `healPower` and `healDelay`, respectively. These will allow for easy configuration. For now, set `healPower` to 10 and `healDelay` to 2.
     
-      ![image](https://user-images.githubusercontent.com/28936305/230853417-9ca52d36-d9b4-4e19-95dd-e25e87eff758.png)
+      ![image](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2007/ed00ce7a-4af3-45de-8157-fb867461ef69.png)
     
     - One ObjectValue called `PlayerCharacterObject`. This will store Player.Character after getPlayerFromName( ) in CompanionMoveScript returns the object. It will save us scripting time and space since we can call the function once.
     
-      ![image](https://user-images.githubusercontent.com/28936305/230853443-16217727-cbef-463f-b3dc-ea93520117d6.png)
+      ![image](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2007/28e6bb2a-55a0-4af3-8694-06d5169ae16e.png)
     
     - Make sure you see this under Config:
     
-      ![image](https://user-images.githubusercontent.com/28936305/230853470-d142741b-d24b-4ad6-8af1-b647818328e1.png)
+      ![image](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2007/1ab68a0b-23fc-4baa-aef8-49071af6f280.png)
 
 2. To save us from cluttering the CompanionMoveScript with more lines, let's create a new script just for healing. Click the + button next to Companion, add a script (red in image), and rename it to `HealScript`.
 
-   ![image](https://user-images.githubusercontent.com/28936305/230853500-4e47e28b-6bd6-468f-b241-4c6858cd3f1e.png)
+   ![image](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2007/204860c0-8fba-405a-9b58-d244b3066be1.png)
 
 3. Open up `HealScript`, and add this code: 
    ```lua
@@ -125,7 +125,7 @@ How do we want the companion to heal?
    end
    ```
 
-Congratulations—your A.I. companion is now improved! Click play to test out its new functions!
+Congratulations--your A.I. companion is now improved! Click play to test out its new functions!
 
 ## Post-Class Deliverables
 

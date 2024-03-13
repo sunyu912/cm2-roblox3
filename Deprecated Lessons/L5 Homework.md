@@ -7,7 +7,7 @@
 
 ## Review Questions
 
-1.  What is “Model”, “Part”, “Script” considered as?
+1.  What is "Model", "Part", "Script" considered as?
     
     
     1.  Position
@@ -30,7 +30,7 @@
     
 
 5.  Write a short script given this hierarchy and the following instructions:  
-    ![](https://lh5.googleusercontent.com/Q4HCK11ULjxS0a1bBly_yvVxwqW9eoUjUNetVs6AP9qtzDd4jUdcnvELr7pWuO3eo6n_BJfXZMBc74NWgDU9SxfnSfqkpE6ZXjG9cPopZRwYqii1y0EWliz_ltNPi6DtmQG-ttfI)
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/L5%20Homework/ecc58430-6c5a-4a6b-b875-8470847a7783.png)
     
     
     1.  The wall should be Blue.

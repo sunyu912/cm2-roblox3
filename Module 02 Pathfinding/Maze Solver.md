@@ -10,23 +10,23 @@ In this project you will create an maze solving A.I. that will automatically cal
 
 1. Navigate to the 'Avatar' tab and press 'Rig Builder'.
 
-![](https://drive.google.com/uc?export=view&id=1F-y7XuTK_NJtcD-27xhSyY6fGc8cFemK)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Maze%20Solver/8f8b4604-560b-4e49-abc7-981363182952.png)
 
 2. In the pop-up window, select your desired rig for your maze solver A.I. from the options.
 
-![](https://drive.google.com/uc?export=view&id=1nPoSTLtFRmAgUY89yMIy4TsPbxVDKOV1)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Maze%20Solver/dd2b80fe-cdf7-49a7-b99d-111d69643166.png)
 
 3. Now that you have a character model, click the plus sign next to it and add a script. Rename it to "MazeSolverScript".
 
-![](https://drive.google.com/uc?export=view&id=1UVS8Jn2i6IE8KzfKPmoZXsKAPw79FBWe)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Maze%20Solver/626d0ea5-df48-4166-b305-8b46c8933856.png)
 
 4. Now create your very own maze, or look through the toolbox to find a maze you would like to test out your A.I. with. Also be sure to enclose your A.I. character at the start of the maze (highlighted in red) so that the A.I. will not try to cheat by going around the maze. Remember: Roblox's pathfinding system will always try to find the shortest path to the target!
 
-![](https://drive.google.com/uc?export=view&id=10CtVFt4OH1xtUCHdkBkqygkPO3RFleBo)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Maze%20Solver/dd737614-934f-47cf-9773-2c0e340bb037.png)
 
 5. Lastly, create a part at the end of the maze and rename it to "goal". We will use this part to tell the pathfinding system where to navigate to inside our script.
 
-![](https://drive.google.com/uc?export=view&id=17NQtGysA2QSXvH2TKVQaZHp5uDG7jMd8)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Maze%20Solver/a9ceda45-be61-4f7c-b820-71c6b6fca097.png)
 
 ### The Script
 

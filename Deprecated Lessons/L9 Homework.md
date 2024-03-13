@@ -7,7 +7,7 @@
 
 ## Which tab(s) would you find this?
 
-## ![](https://lh5.googleusercontent.com/54jLLj5T_7A5S1vpQt2Akvl-1wefRuLdupHQV4W2sNgG1wuiFQdqu7F7BhnLuugy-U-67OehPbiI8zjT1Ok60b41MYbG26-Hydp5QXzQOMWfg3-vcJL00gPc8cpOJuHSUfveKsU0)  
+## ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/L9%20Homework/61954d96-3672-4aee-98a7-7fd21593ba33.png)  
 Choosing from the tabs above, write down where you find these (there can be more than one tab):
 
       
@@ -53,6 +53,6 @@ Choosing from the tabs above, write down where you find these (there can be more
 ## Challenge!!
 
 1.  Given the script below:  
-    ![](https://lh6.googleusercontent.com/h3xRywvODmIsRj_Zcr85zuPraLqrmxGAXKCE0p6YXnLlGH8jXBv2pxlx1TFqKanf8kkan5TkQumgZE7JonoSWOCupu1N8hShe3qjQzUi5muSJ6Cx1Necjrv0EKKietqe7ivJ0Mam)  
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/L9%20Homework/9a087cdd-219c-44f2-9a1e-a2ef3f9802cb.png)  
       
     What does the # mean on line 3 ( #list )?  

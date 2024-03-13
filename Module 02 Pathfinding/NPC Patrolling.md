@@ -17,25 +17,25 @@ Just like my dog!
 
 1. Get 3 cylinders and make them flat against the ground. Add BrickColor and Material.
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1lzO2rNu1xJC_gYolYfCTO9MuDW0h9p2G)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/ed20571e-9ee2-4361-9274-b2a1da0d3cae.png)
 
    
 
 2. Rename them to `goal1`, `goal2` and `goal3`. 
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1IOsHaDawN-RwK8hxYNDqivURO-jq2Dig)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/4dacb332-ffa1-4b5b-8371-270b4b85661c.png)
 
 3. Get a Rig from the "AVATAR" Tab and "Rig Builder", then select any of the options from the middle of the screen. For this example, the "Block Avatar" was selected. 
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1LIPzjGYsC820qstFPQIzaCZAFZefc5cQ)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/47afd85d-4c1b-4ff7-b4df-60ed3003273a.png)
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1UuX6ie3KfYfmnnuYXVh0YTCWJCQZC8mb)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/1acdcf45-fca8-41d3-ae33-caa6c4a9bc50.png)
 
 ### The Script
 
 1. Add a script onto the Rig and rename it to `NPCMoveScript`. You can also download it via Roblox from [here](http://bit.ly/roblox3_3_npcmovescript).
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=17sUR9M8A32Yf_FVq6b_1R7ok4tQbHmT7)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/54c8f414-a99a-4e7b-a089-dcc2ab8cb422.png)
 
 2. Script the Movement Script (unless you downloaded it from the previous step)
 
@@ -130,9 +130,9 @@ Just like my dog!
 
 1. Decorate your Rig. Feel free to rename it, add images on it and change their colors.
 
-   ![image-20230512164927553](https://drive.google.com/uc?export=view&id=1POkq3ImDCXDwgiCkSjx0KMKv8Ny99hQG)
+   ![image-20230512164927553](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/34554235-eef2-4e25-ac05-d6c9d0fef433.png)
 
 1. Add decorations!
 
 
-![image-20230512164927553](https://drive.google.com/uc?export=view&id=1CF6O_e2DpfI6Tp2JQwKZDZbCYUOLiUFu)
+![image-20230512164927553](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/NPC%20Patrolling/855cfb0f-66b0-4b32-a1d7-4a5fb4c255d8.png)

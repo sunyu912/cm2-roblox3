@@ -15,11 +15,11 @@ We will be utilizing the following topics:
 3. Add some lights or accessories to the turret to make it look unique.
 4. Create a barrel that the turret would shoot the bullets out of, it should be attached to the center of the turret.
 
-![](https://drive.google.com/uc?export=view&id=1TNjz_iDLPYvu8U4WBLeUZu63uV-5F9FS)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Turret/8c6d6f4e-7516-4bc8-8925-078c4c06005c.png)
 
 5. Insert an attachment at the tip of the barrel. Name this "RayStart."
 
-![](https://drive.google.com/uc?export=view&id=1URaI6PJxwx_6kcyGtGWtZLI7kHw0xgEU)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Turret/7bda0641-d1e9-4d37-b413-ed72655771cb.png)
 
 6. Name the barrel with the attachment "ShootPart".
 7. Inside the attachment "RayStart", create a point light.
@@ -31,7 +31,7 @@ We will be utilizing the following topics:
 1. For the turret to shoot, it needs to shoot something. Create a cylindrical part slightly smaller than the width of the turret barrel.
 2. Set the material of the bullet to neon and the color to whichever color you prefer.
 
-![](https://drive.google.com/uc?export=view&id=1-OXzmb3KVonWeXmSaifl_fNZPXOjA8eg)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Turret/cedc03da-cf23-4424-913a-67ff23db4db7.png)
 
 3. Set the bullets CanCollide and Anchored to false.
 4. Name the bullet "Bullet" and put the bullet part inside of ServerStorage.

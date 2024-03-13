@@ -3,7 +3,7 @@
 
 
 
-## In Your Words…
+## In Your Words...
 
 
 What is your definition of artificial intelligence (AI)?

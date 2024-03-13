@@ -10,7 +10,7 @@
 
 Given this function, answer the following questions below:
 
-![](https://lh5.googleusercontent.com/7-5TdFTevrTY-otMFRWWZeAwcknML_4aYSxeEGnQ4mVfb3YaW2OmzOFtxG8N6wkAOPw8LEAZERYPOg7tBCauLMsWhjtW_cg-VBFcWY6ND84QzMKjX5GXYr-QctXXOUu5ITJpT0zJ)  
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/L6%20Homework/35b4e13b-6d39-481f-a047-027604ac1520.png)  
   
 
 1.  On line 4, what does Players:GetPlayers( ) return?
@@ -26,7 +26,7 @@ Given this function, answer the following questions below:
           
         
 
-3.  On line 5, what does :lower( ) do to the player’s name (which is a string)?  
+3.  On line 5, what does :lower( ) do to the player's name (which is a string)?  
       
       
     ___________________________________________________________________________  
@@ -43,7 +43,7 @@ Given this function, answer the following questions below:
       
       
     
-5.  [Challenge] What does the function return if it doesn’t find what it is looking for?  
+5.  [Challenge] What does the function return if it doesn't find what it is looking for?  
       
       
     _________________________________________________

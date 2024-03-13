@@ -8,7 +8,7 @@
 
 
 * Learn about AI and how it creates a dynamic gameplay in Roblox
-* Introduce Roblox’s Pathfinding service
+* Introduce Roblox's Pathfinding service
 * Create a script that visualizes the path
 
 <h2>Preparation</h2>
@@ -34,7 +34,7 @@
 2. Discuss with students what AIs are out in the present-day world
     3. Ex: Understanding human speech, strategy games (Chess, Go), self-driving car
 
-<h3>Introducing Roblox’s AI Pathfinding</h3>
+<h3>Introducing Roblox's AI Pathfinding</h3>
 
 
 
@@ -51,23 +51,23 @@
 
 
 
-1. Roblox’s pathfinding function calculates the route through a fixed size of 1 x 1 x 1 studs.
+1. Roblox's pathfinding function calculates the route through a fixed size of 1 x 1 x 1 studs.
 2. Picture the Roblox world simplified into cubes of the exact same size (like a checkerboard).
-    1. The system will ask itself “What’s the least amount of cubes I need to cross to get to my target?”
-3. Let’s start using the pathfinding functions and see how it works. Open up Roblox Studio.
+    1. The system will ask itself "What's the least amount of cubes I need to cross to get to my target?"
+3. Let's start using the pathfinding functions and see how it works. Open up Roblox Studio.
     2. Spawn in a Model into Workspace and name it Waypoints
     3. Spawn in 2 Parts into Workspace and name one Start and another Finish
     4. Create a script into Workspace, you can rename it to PathfindingScript
 4. Within the script is the following: \
 
 
-![](https://lh5.googleusercontent.com/WANv9XJCZulUSGINdkoX2BNhydGchPvgQIRE7Lb3MQr3qi-165eBONVM3RkdS0PCgqPpnNVuE9bOGZQx7zTcKVyL4UMQltq5A1F13Iv3KcLwW4qjE6_0Bl1TMo6xnTRjM7n1uzHA)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2001/529c811b-0675-463c-ae74-7903a9d3e8f2.png)
 
 5. Now Run the program. It should look like this: \
 
 
 
-![](https://lh3.googleusercontent.com/QG1FjL803XsOvjJMuBxGKbyS0TBrDgKGreYJsFoY0u2pquTYv9ew2nIx79XsXn1x-TvOQN8d--XU5aAL_gTgdD860fOV8XUwlzCaACIcwr-_NCtzFaNQtN4Sv7DLvyeITq9T-AXZ)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2001/f3f69b32-4970-434d-a76b-eefadd106cee.png)
 
 6. You can drag the Start or Finish part around and watch the path change. You can even place a block in between them and watch the path go around or over it.
 

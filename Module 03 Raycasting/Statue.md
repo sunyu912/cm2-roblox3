@@ -11,17 +11,17 @@ In this project you will create a haunted statue A.I. that will only follow the 
 
 1. Navigate to the 'Avatar' tab and press 'Rig Builder'.
 
-![](https://drive.google.com/uc?export=view&id=1F-y7XuTK_NJtcD-27xhSyY6fGc8cFemK)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Statue/826b5251-faf9-4bdc-b03f-b3cc3935eff8.png)
 
 2. In the pop-up window, select your desired rig for your haunted statue from the options.
 
-![](https://drive.google.com/uc?export=view&id=1nPoSTLtFRmAgUY89yMIy4TsPbxVDKOV1)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Statue/46ec3495-5395-484a-8123-de1cb2f93b1c.png)
 
 3. Add a "Script" object to your "Rig" model.
 
 4. Add an "IntValue" object to your "Rig" model. Rename it to be named "Damage." Then, look in the properties window and change the "Value" number to be any number you want.
 
-![](https://drive.google.com/uc?export=download&id=1qVknJ3nxI_vJYY5NVsFrfnAS93LSkrMP)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Statue/5f0d71d7-c5c0-43e5-8bd9-fbae0323517e.png)
 
 ### The Script
 

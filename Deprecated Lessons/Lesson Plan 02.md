@@ -49,7 +49,7 @@
 
 1.  As some students are working, explain that we can transform the visualized pathfinding script into a hint tool that lights a temporary path to the exit.
 
-2.  Let’s first start by adding a Tool into the Workspace. We can rename this to HintTool.
+2.  Let's first start by adding a Tool into the Workspace. We can rename this to HintTool.
 
     1.  The students can design the tool however they like, however one part and only one part must be named Handle (with a capital H).
 
@@ -57,12 +57,12 @@
 
     3.  Create a script and place it inside HintTool. We can rename this to HintToolScript.
 
-    ![](https://lh4.googleusercontent.com/C5PT748U8ynspKukcjY5i9A-0HeYxs0ARSZ-WgK5OiVs734ObwO3TTWatalKx5zlS0T5UhqrwkbrTqz0QMRUafdA9_sPlSWDUPW3Qdu_6brYQurHvz4Li_HDu7tJD_DmEmo2ky9M)
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2002/0ec975cc-aa38-42e0-a581-bd1feb7254c9.png)
 
 3.  Open the script and insert the following code:
 
 
-![](https://lh5.googleusercontent.com/LEin4b_54DFNs4Zl5EtkORWMJDBmZYctIWuI9l8t_28qPn4_SJGUKte31B6fkkGIrxCCcmTEIOC4pS8GW52h4cdOmohqbsO5H-_PQB68WJEkwAUAXzRHeZ-kAlyu-5c9Ov5A2rso)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Deprecated%20Lessons/Lesson%20Plan%2002/bd9c89c3-7b3c-4357-a8a4-54a2fde7d1c3.png)
 
 
 Important: If students have the script from lesson 1, make sure to disable the PathfindingScript if you want the HintToolScript to work correctly as it interferes with each other!

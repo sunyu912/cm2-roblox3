@@ -12,30 +12,30 @@ We will be utilizing the following topics:
 
 1. Create some sort of tunnel, or a temple scene with walls and a ceiling. Name the ceiling part "TrapPart."
 
-![](https://drive.google.com/uc?export=view&id=1s35RViKpTcGrTy--d1-DG7daEaZr1FiT)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/eeb1e314-ba2b-4518-bf7b-d3468b19ea7a.png)
 
 2. After you have created a temple scene, you want to create a room above the ceiling where the trap will be located. That part of the ceiling should be a separate block of the ceiling, since you will be destroying it later.
 3. Add a large boulder into the trap room and name it "Rock."
 
-![](https://drive.google.com/uc?export=view&id=1nbwFPWlEUXFEPsaUfRdCHRxt8WOZHGZo)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/a3eac78f-087a-492e-b8aa-bf5975c155e0.png)
 
 4. In the Explorer, go through the list of parts you've made so far and anchor them (red in image). Repeat this for every part except TrapPart.
 
-   ![](https://drive.google.com/uc?id=11IzriUY42IbJe_nsyE9_M8KqnLxTniZu)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/a577fda1-e2b7-41f1-a8a6-6235656d3e80.png)
 
 5. Create a block part where the trap will be activated, this should be right below the trap room with the boulder in it on the wall. Name it "RayPart."
 
-![](https://drive.google.com/uc?export=view&id=1_ChWUo-zDmHCQh8YyhBAxNg3tkzYMNh6)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/6aec35da-2b23-4e80-aa54-3f2a284113d7.png)
 
 6. In the Explorer, click the plus button next to RayPart and add an attachment (red in image). Name the attachment "RayStart." This is where the raycast to detect the player will start, and it should be at the end of TrapPart.
 
-   ![](https://drive.google.com/uc?id=1xGIp9D7F8hKmqK8bzC3laMkQzvVKwhuh)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/30c41b80-7bdb-46d1-aca2-5d651a7df108.png)
 
 7. Make sure that the attachment is parallel to the center of TrapPart.
 
 8. Put every part used so far in a folder and name it accordingly, for example "Temple" or "TempleTrap." Make sure its contents look like this:
 
-   ![](https://drive.google.com/uc?id=1_K_ApKC-g_4wv-t137aAuN-Ha9QgdBKA)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2003%20Raycasting/Temple%20Trap/66e23f2d-6fd7-43df-b187-fce711aa9c5f.png)
 
 9. Click the plus button next to this folder and add a script.
 

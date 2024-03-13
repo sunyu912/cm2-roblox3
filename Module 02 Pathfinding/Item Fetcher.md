@@ -17,21 +17,21 @@ Just like my dog!
 
 1. Get 1 sphere. Add BrickColor and Material. Then rename it to `orb`.
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1V5BIiU0q2DnPjd14Nypg9ycWdPXI-Pst)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/4b6a5e21-716c-4df6-9c7c-e77a505739ce.png)
 
    
 
 3. Get a Rig from the "AVATAR" Tab and "Rig Builder", then select any of the options from the middle of the screen. For this example, the "Block Avatar" was selected. 
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1LIPzjGYsC820qstFPQIzaCZAFZefc5cQ)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/bbc6f45a-9cfe-4adc-a769-007f14cef1ce.png)
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1UuX6ie3KfYfmnnuYXVh0YTCWJCQZC8mb)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/e6507718-2eae-45ee-a457-f83c771b2934.png)
 
 ### The Script
 
 1. Add a script onto the Rig and rename it to `NPCFetchScript`.
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1GFZggrNM-IuybIgLcyf9R6j2eGoFZAUO)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/9c4ba4b1-d560-41d0-ae31-687c5e5efcb9.png)
 
 2. Script the Fetch Script
 
@@ -122,7 +122,7 @@ Just like my dog!
 
 3. Add a script onto the orb object and rename it to `FetchScript`.
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1m9x01z4Ye9UoDglj8GlMuoOO48nvV0jQ)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/6ea7f0bf-4819-4421-9685-72d2992ebe23.png)
 
 4. Script the Fetch Script
 
@@ -142,13 +142,13 @@ Just like my dog!
 
 1. Decorate your Rig. Feel free to rename it, add images on it and change their colors. 
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1WGdBCnu4iIGMJmryLLwsjCoEqbTPHuD_)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/93a868a5-dfbc-4a8a-b2f4-ee3ca8d74b86.png)
 
 1. Change how the `orb` looks to a theme of your choice and make many clones around the map for the NPC to fetch!
 
-   ![image-20230523210644516](https://drive.google.com/uc?export=view&id=1BnHBCWwklmzBvF4LT7wwI0o0oRt252Ta)
+   ![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/96a490be-7d07-4065-8901-258e6a9859f0.png)
 
 1. Decorate the world!
 
 
-![image-20230523210644516](https://drive.google.com/uc?export=view&id=1g6Sgm6xZRN1PNvkm0LW1atkFRR6IGD0n)
+![image-20230523210644516](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2002%20Pathfinding/Item%20Fetcher/3b02ddfd-d8b8-4443-a217-6b0e76d162f3.png)

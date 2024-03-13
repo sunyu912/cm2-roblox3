@@ -15,60 +15,60 @@ A pellet a day keeps the ghosts away
 
 1. Get 1 wedge and 2 spheres
 
-   ![](https://drive.google.com/uc?export=view&id=1_W24pSI0nCf3bVvVuq6bED7bV_JTdjmY)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/a10f3bc5-30b7-47d8-a00e-aa1317f47a18.png)
 
 2. Add BrickColor and Material
 
-   ![](https://drive.google.com/uc?export=view&id=13zYGSdGEGqw3kvueN1s5JW4st5VBllHa)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/9cc6d08d-45a0-4dcf-a718-383fe97feadf.png)
 
 3. Make one sphere slightly smaller and rename it to `HumanoidRootPart`, the wedge to `Mouth` and the other sphere to `Head`
 
-   ![](https://drive.google.com/uc?export=view&id=1k96II8e47xumOZwlVCf88gnN5sjP2GIC)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/4cef4082-de0b-4868-97ca-8d0fc8615540.png)
 
 4. Place the `Mouth` in a way it will cut out from the `Head` to make it look like Pac Man. Don't use the small sphere yet. 
 
    - **Hint**: Turn off collisions so you can move the `Mouth` inside the `Head`.
 
-   ![](https://drive.google.com/uc?export=view&id=1UKhM7yWmnIh_PDvtwi1gNSVJrZWU0NZ4)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/5e119bfe-a4c4-4600-ad46-c7166ca94167.png)
 
 5. Select the `Mouth` and make it a negative part by selecting the option from "Model" and "Negate" (red in image)
 
-   ![](https://drive.google.com/uc?export=view&id=1Mmuee04ZZU0m8jwWunfYxDaE3oJRoje-)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/a5fd87be-9f4e-4986-bcd4-0898f16c6d8d.png)
 
 6. Then select both the `Head` and `Mouth`. Click on the "Union" option (red in image). Make sure you rename the new `Union` to `Head`.
 
-   ![](https://drive.google.com/uc?export=view&id=1M0aVMdlTImzXv-pH5v1YOH54i6i2cnUL)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/92b88bb1-c330-40d9-a543-c567d5734cd3.png)
 
 7. Now place the `HumanoidRootPart` roughly in the center of the `Head` and make it transparent.
 
-   ![](https://drive.google.com/uc?export=view&id=19G8vkhFA0bMM_rVnWYvEj-yDGL52KUOl)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/911a2e65-3c42-4c43-9490-12f053b30c83.png)
 
 8. Select both parts and group them using "Ctrl + G" and rename the "Model" to `StarterCharacter`. **Note:** This rename is important to be able to play as this object.
 
-   ![](https://drive.google.com/uc?export=view&id=1NOsjmlW2WTyKb6PcPK6R9LO6VIa2fzkU)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/7ee874d9-2680-4e86-bbb3-a9b55ddd9433.png)
 
 9. Add a "WeldConstraint" 
 
-   ![](https://drive.google.com/uc?export=view&id=1IYSa1qOKMe7Grvt4Z6k1npdxwgzKk-E_)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/68c27f3e-bd1a-4769-a127-f52c17701069.png)
 
 10. Connect the `Head` to the `HumanoidRootPart` by changing the "WeldConstraint" *Part0* and *Part1* to them respectively (red in image)
 
-    ![](https://drive.google.com/uc?export=view&id=1gRmg2Y4zBjRR-Gad2g_uAQSXafIMs55I)
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/0025614b-eb2c-477a-84bd-b841d1323d71.png)
 
 11. Add a "Humanoid" to the "StarterCharacter" and change its "HipHeight" property to 1. **Note:** "HipHeight" changes how far the `HumanoidRootPart` is from the floor by studs, you can make it a bigger number if necessary.
 
-    ![](https://drive.google.com/uc?export=view&id=1AUNSzFcEATuSSMHUH78AG4buBrfWqlOb)
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/94603cfa-77d8-4401-8604-36a200da6bd6.png)
 
 12. Place the `StarterCharacter` in the "StarterPlayer" folder and click play!
 
-    ![](https://drive.google.com/uc?export=view&id=1gp1aDtkxTSwaFc8auDsFsiGR5HKnlkHG)
+    ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/f1d60238-c58b-499e-8eea-773a9276d640.png)
 
 
 ### The Scripts
 
 Script some pellets! Add a small sphere, rename it to `Pellet`, anchor it, turn off its collission and make it Neon.
 
-   ![](https://drive.google.com/uc?export=view&id=1LnE3ATw2KPXoagjGK0wNphkfJn3j7aSQ)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/2813f667-670f-4ced-813b-43f9e27084ba.png)
 
 Add a script inside the `Pellet`, rename it to `PelletScript` and add the following code:
 
@@ -89,13 +89,13 @@ In this script, we start by adding a function that is only activated when someth
 
 Inside the `PelletScript` add a "Sound" object and rename it to `Eat` (red in image). Then add the following into the SoundId property: rbxassetid://4797903038 (blue in image)
 
-![](https://drive.google.com/uc?export=view&id=16uFRwZrM93OYqBZaD9xtV4tomKc5iKxj)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/a1b304fc-978f-400b-8da6-ce658139523b.png)
 
 Now you can clone it and touch them to eat them!
 
 Now, we will script Pac Man to make sounds! We will be adding some code to have Pac Man make the famous "Waka Waka" sound when walking. Add a Local Script object on the "StarterPlayer" folder and rename it to `WalkingSound` (red in image)
 
-![](https://drive.google.com/uc?export=view&id=1cgGEnceF9hbkk1Z12CtRTbOR8P20w4wZ)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/22490a6a-1f8d-4815-ba12-32d4f2d78662.png)
 
 Add the following code:
 
@@ -114,7 +114,7 @@ Congratulations! You will now make the famous "Waka Waka" sound when playing as 
 
 1. Decorate the world! 
 
-   ![](https://drive.google.com/uc?export=view&id=14pTw_Ltfn-73iLl_PlnFBKBD_rU32rrP)
+   ![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Pac%20Man/3b3cac6a-f645-4b1c-917b-092f87170aeb.png)
 
    
 

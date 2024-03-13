@@ -26,7 +26,7 @@
       
         script.Parent.Touched:Connect( function (hit)  
           
-        local human = hit.Parent:FindFirstChild(“_________________”)  
+        local human = hit.Parent:FindFirstChild("_________________")  
         if human ~= nil then  
         _________.Health = 0  
         end  
@@ -36,12 +36,12 @@
 
 ## Pathfinding Questions
 
-1.  Let’s say we spawned two Part into the Workspace. One is called Start and the other is called Finish.  
+1.  Let's say we spawned two Part into the Workspace. One is called Start and the other is called Finish.  
       
     Below are two lines in a Pathfinding script used to calculate the shortest route between the two parts, Start and Finish. Fill in the blank with the correct answer.  
       
         -- Creates the path object  
-        local path = game:GetService (“_____________________”):CreatePath()  
+        local path = game:GetService ("_____________________"):CreatePath()  
           
         -- Compute the path  
         path:ComputeAsync (_____________.Position , Finish._____________)

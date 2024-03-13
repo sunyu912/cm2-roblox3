@@ -14,27 +14,27 @@ Follow these steps to build your very own Creeper model! Alternatively, you can 
 
 1. Spawn two blocks, and either color them green or another color of your choice. Name one block "HumanoidRootPart," and name the other block "Head." Adjust the sizes and shapes of the two blocks so they look like a Creeper's body, as shown in the image.
 
-![](https://drive.google.com/uc?export=view&id=1nbTvMDNIsJU9vUzsrgQqgbZ5Pu-LuKMm)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/ff38577b-3624-4d90-ad61-20ea86af1555.png)
 
 2. All parts of the Creeper must be welded together. Click the plus sign next to one of the parts and search for "WeldConstraint".
 
-![](https://drive.google.com/uc?export=view&id=1P_2p_dq3krJQo-PWKhq6tP6cYhHmOVHc)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/61b5c23b-3758-4997-a69b-380b880067c9.png)
 
 3. Then, in the details panel of the WeldConstraint you just created, find the properties labeled "Part0" and "Part1". These represent the parts that you are welding together. Click Part0, and when a block selection cursor appears, click on the "Head" block. Likewise, click Part1, and when a block selection cursor appears, click on the "HumanoidRootPart" block.
 
-![](https://drive.google.com/uc?export=view&id=1Pvh3MKZYZBzAULrhxqDRVHEk6OxRMuVX)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/aab08cc4-0177-4a66-a912-0b9b5080dfc3.png)
 
 4. Then, Ctrl-click both the "Head" and the "HumanoidRootPart" to select both of them (they should both be highlighted in blue). Use the shortcut Ctrl+G with both of them selected to group them as a model.
 
-![](https://drive.google.com/uc?export=view&id=10-um8OT7Cp3uJFyEH0E5EM-CkwVW6cSy)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/46d9dab9-abc0-45a6-b2c4-588eb974fb97.png)
 
 5. Now, click the plus sign next to your newly created Model group and add a "Humanoid".
 
-![](https://drive.google.com/uc?export=view&id=1jFNycSbKrGH8o1CA4YeItdKZM4K54SoH)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/a9b0aafa-08fc-42d0-a310-f5b65eb1011e.png)
 
 6. Finally, add two more blocks to be the feet of the Creeper. Add WeldConstraints to both of them and weld both of them to the "HumanoidRootPart." You can also add a face decal to the Creeper by clicking the plus sign next to your "Head" part and adding a "Decal". In the details panel of your Decal, find the property called "Texture," and copy-paste the following link into the box to crate a Creeper face texture: http://www.roblox.com/asset/?id=50018586.
 
-![](https://drive.google.com/uc?export=view&id=1MIgULC50lQ6W59zvAzefVGMLrgYJ1guE)
+![](https://storage.googleapis.com/cm-image-repository.appspot.com/roblox_3/Module%2001%20NPCs/Creeper/10a530f7-b062-4890-ab89-c157a989beb2.png)
 
 ### The Script
 
